@@ -1,189 +1,139 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  name: Jialin Song
+  label: Ph.D. Student in Computing Science
+  email: jialin_song@sfu.ca
+  phone: "+1 (778) 700-0424"
+  website: https://scholar.google.com/citations?user=-zPtvfsAAAAJ&hl=en
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Simon Fraser University
+        location: Burnaby, BC, Canada
+        url: https://www.sfu.ca/
+        area: Computing Science
+        studyType: Ph.D. in Computing Science
+        start_date: 2024
+        end_date: "2028 (Expected)"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of California, Berkeley
+        location: Berkeley, CA, U.S.
+        url: https://www.berkeley.edu/
+        area: Electrical Engineering and Computer Sciences
+        studyType: M.Eng.
+        start_date: 2021
+        end_date: 2022
+
+      - institution: Worcester Polytechnic Institute
+        location: Worcester, MA, U.S.
+        url: https://www.wpi.edu/
+        area: Computer Science and Robotics Engineering (Double Major)
+        studyType: B.S.
+        start_date: 2017
+        end_date: 2020
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduated with high distinction
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Microsoft Research
+        position: Research Intern
+        location: Redmond, WA
+        start_date: 2025
+        end_date: 2025
+        summary: Deep Learning Group
+
+      - company: International Computer Science Institute (ICSI)
+        position: Machine Learning Engineer
+        location: Berkeley, CA
+        start_date: 2022
+        end_date: 2024
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Worked on robust and scientific machine learning projects.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Stress-testing LLM Safety"
+        summary: "May 2025 – Present"
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Building a scalable multi-turn jailbreak benchmark with active-learning–based data expansion on diverse harm categories.
+          - Stress-testing LLMs' safety performance, revealing persistent vulnerabilities to conversational attacks.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction"
+        url: https://arxiv.org/abs/2603.21356
+        summary: "Aug 2024 – Present"
+        highlights:
+          - Building a physics-informed metric to evaluate next-best-view (NBV) methods for 3D reconstruction.
+          - Integrating geometric uncertainty through differentiable grid-based methods.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs"
+        url: https://arxiv.org/abs/2502.00963
+        summary: "Oct 2024 – Jan 2025"
+        highlights:
+          - LLM for conversion between PDE-related natural language to formal temporal logic and executable programming code.
+          - Incorporated and designed back-translation and auto-verification pipeline for data generation.
+
+      - name: "HPC-Driven Modeling with ML-Based Surrogates for Magnon-Photon Dynamics in Hybrid Quantum Systems"
+        url: https://arxiv.org/abs/2510.22221
+        summary: "Oct 2023 – May 2024"
+        highlights:
+          - Developed a physics-informed deep learning framework for dynamics forecasting of electric fields.
+          - Established a curriculum learning method for long-horizon prediction and improving generalization performance.
+
+      - name: "Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning"
+        url: https://arxiv.org/abs/2402.15734
+        summary: "Nov 2023 – Jan 2024"
+        highlights:
+          - Proposed a data-efficient training pipeline for optimizing efficiency and accuracy.
+          - Studied the limitations on data (masking, subsample ratio, etc.) for downstream tasks on different PDE systems.
+
+      - name: "Learning Spatiotemporal Dynamics From Sparse Measurements"
+        summary: "Mar 2023 – Dec 2023"
+        highlights:
+          - Designed a NeuralODE model for predicting temporal dynamics using sparse measurements, with a Swin Transformer-based decoder for reconstructing spatiotemporal dynamics.
+          - Ran experiments on various datasets (e.g., turbulence and climate data ERA5) and contributed to a paper.
+
+      - name: "IARPA TrojAI for Model Robustness against Backdoor Attack"
+        summary: "Oct 2021 – Aug 2024"
+        highlights:
+          - Evaluated model robustness against backdoor attacks using weight-based analysis, trigger inversion, or input perturbation.
+          - Developed detection and mitigation pipelines for backdoor attacks across domains (CV, LLM, cyber security).
+          - Secured top 2 place for the majority of TrojAI rounds and ranked in the top 5 for NeurIPS TDC 2022 (detection track).
+
+    Publications:
+      - title: "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs"
+        publisher: "ICML 2025"
+        releaseDate: "2025-01-01"
+        url: https://arxiv.org/abs/2502.00963
+        summary: "**J. Song\\***, M. Soroco\\*, M. Xia, K. Emond, W. Sun, W. Chen"
+
+      - title: "Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning"
+        publisher: "NeurIPS 2024"
+        releaseDate: "2024-01-01"
+        url: https://arxiv.org/abs/2402.15734
+        summary: "**J. Song\\***, W. Chen\\*, P. Ren, S. Subramanian, D. Morozov, M. W. Mahoney"
+
+      - title: "Learning Spatiotemporal Dynamics from Sparse Data via a High-order Physics-encoded Network"
+        publisher: "Computer Physics Communications, 2025"
+        releaseDate: "2025-01-01"
+        summary: "**J. Song\\***, P. Ren\\*, C. Rao\\*, Q. Wang, Y. Guo, H. Sun, Y. Liu"
+
+      - title: "Learning Spatiotemporal Dynamics From Sparse Measurements"
+        publisher: "Machine Learning: Science & Technology, 2024"
+        releaseDate: "2024-01-01"
+        summary: "**J. Song\\***, Z. Song\\*, P. Ren, N. B. Erichson, M. W. Mahoney, X. S. Li"
+
+      - title: "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Stress-testing LLM Safety"
+        publisher: "Under Review"
+        summary: "**J. Song**, X. Liu, W. Yang, W. Chen, M. Feng, X. Zhu, J. Gao"
+
+      - title: "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction"
+        publisher: "Under Review"
+        url: https://arxiv.org/abs/2603.21356
+        summary: "**J. Song\\***, Y. Liu\\*, M. Chanlatte, R. Chowdhury, R. Desai, W. Chen, D. Martin, M. W. Mahoney"
+
+      - title: "HPC-Driven Modeling with ML-Based Surrogates for Magnon-Photon Dynamics in Hybrid Quantum Systems"
+        publisher: "Under Review"
+        url: https://arxiv.org/abs/2510.22221
+        summary: "**J. Song\\***, Y. Tang\\*, P. Ren, N. B. Erichson, M. W. Mahoney, J. Z. Yao"
+
+      - title: "CD-VAE-GMG: Conditional Dynamic Variational Autoencoder for Earthquake Ground Motion Simulation"
+        publisher: "Under Review"
+        summary: "P. Ren, I. Naiman, M. Lacour, R. Nakata, N. Nakata, **J. Song**, Z. Bi, O. A. Malik, D. Morozov, O. Azencot, N. B. Erichson, M. W. Mahoney"
