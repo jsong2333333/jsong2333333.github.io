@@ -1,7 +1,7 @@
 ---
 layout: bio
 permalink: /diamond/
-title: Dr. 💎
+title: Dr. Diamond
 nav: true
 nav_order: 3
 subtitle: Research Assistant. Naps, supervision, and occasional keyboard contributions.
@@ -31,9 +31,9 @@ gallery:
     # caption: add a caption here if you want one
   - path: assets/img/diamond/IMG_4077.jpg
     # caption: add a caption here if you want one
-  - path: assets/img/diamond/IMG_4240.jpeg
-    # caption: add a caption here if you want one
   - path: assets/img/diamond/IMG_4269.jpeg
+    # caption: add a caption here if you want one
+  - path: assets/img/diamond/IMG_4417.jpeg
     # caption: add a caption here if you want one
   - path: assets/img/diamond/IMG_4516.jpg
     # caption: add a caption here if you want one
