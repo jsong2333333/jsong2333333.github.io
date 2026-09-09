@@ -30,7 +30,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/diamond/";
           },
-        },{
+        },{id: "news-multibreak-was-accepted-to-icml-2026",
+          title: 'MultiBreak was accepted to ICML 2026.',
+          description: "",
+          section: "News",},{id: "news-started-a-research-internship-at-microsoft-research-in-redmond-wa",
+          title: 'Started a research internship at Microsoft Research in Redmond, WA.',
+          description: "",
+          section: "News",},{id: "news-the-multibreak-dataset-is-now-released-on-hugging-face",
+          title: 'The MultiBreak dataset is now released on Hugging Face.',
+          description: "",
+          section: "News",},{id: "news-two-blog-posts-about-our-work-are-up-on-the-microsoft-research-blog-post-one-and-post-two",
+          title: 'Two blog posts about our work are up on the Microsoft Research blog:...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
