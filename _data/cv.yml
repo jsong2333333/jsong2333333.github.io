@@ -1,3 +1,6 @@
+# Source for the rendered CV page at /cv/.
+# The downloadable PDF at assets/pdf/jsong_cv.pdf is maintained separately by hand,
+# so keep this file in sync with it whenever the PDF changes.
 cv:
   name: Jialin Song
   label: Ph.D. Student in Computing Science
@@ -12,24 +15,24 @@ cv:
         url: https://www.sfu.ca/
         area: Computing Science
         studyType: Ph.D. in Computing Science
-        start_date: 2024
-        end_date: "2028 (Expected)"
+        start_date: 2024-08
+        end_date: "2028-05 (Expected)"
 
       - institution: University of California, Berkeley
         location: Berkeley, CA, U.S.
         url: https://www.berkeley.edu/
         area: Electrical Engineering and Computer Sciences
         studyType: M.Eng.
-        start_date: 2021
-        end_date: 2022
+        start_date: 2021-08
+        end_date: 2022-05
 
       - institution: Worcester Polytechnic Institute
         location: Worcester, MA, U.S.
         url: https://www.wpi.edu/
         area: Computer Science and Robotics Engineering (Double Major)
         studyType: B.S.
-        start_date: 2017
-        end_date: 2020
+        start_date: 2017-08
+        end_date: 2020-12
         highlights:
           - Graduated with high distinction
 
@@ -37,103 +40,104 @@ cv:
       - company: Microsoft Research
         position: Research Intern
         location: Redmond, WA
-        start_date: 2025
-        end_date: 2025
-        summary: Deep Learning Group
+        start_date: 2025-05
+        end_date: 2026-08
+        summary: Deep Learning Group and Catalyst Lab
+        highlights:
+          - Working on LLM jailbreak and agentic safety.
+          - May-Aug 2026 and May-Sep 2025 full-time, Oct 2025-Apr 2026 part-time.
 
       - company: International Computer Science Institute (ICSI)
         position: Machine Learning Engineer
         location: Berkeley, CA
-        start_date: 2022
-        end_date: 2024
+        start_date: 2022-07
+        end_date: 2024-08
         highlights:
-          - Worked on robust and scientific machine learning projects.
+          - Worked on robustness and scientific machine learning projects.
 
-    Projects:
-      - name: "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Stress-testing LLM Safety"
-        summary: "May 2025 – Present"
+    Research Projects:
+      - name: "Coarse-to-fine Diversity Reward for Multi-turn Jailbreak Attacks"
+        summary: "Feb 2026 - Present"
         highlights:
-          - Building a scalable multi-turn jailbreak benchmark with active-learning–based data expansion on diverse harm categories.
-          - Stress-testing LLMs' safety performance, revealing persistent vulnerabilities to conversational attacks.
+          - Injecting strategic and content diversity into attacker training with GRPO.
+          - Showing that higher diversity improves pass@k and weak-to-strong transferability of attacks.
 
-      - name: "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction"
-        url: https://arxiv.org/abs/2603.21356
-        summary: "Aug 2024 – Present"
+      - name: "An Automated Generation Framework for Task-Specific Agentic Safety"
+        summary: "May 2026 - Present"
         highlights:
-          - Building a physics-informed metric to evaluate next-best-view (NBV) methods for 3D reconstruction.
-          - Integrating geometric uncertainty through differentiable grid-based methods.
+          - Proposing an automatic generation pipeline that builds task-dependent attacks from policy-grounded risk specifications, with fine-grained prompt-injection locations and templates.
 
-      - name: "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs"
+      - name: "Multi-turn Jailbreak Benchmark for Stress-testing LLM Safety"
+        url: https://arxiv.org/abs/2605.01687
+        summary: "May 2025 - Jan 2026"
+        highlights:
+          - Built a scalable multi-turn jailbreak benchmark with active-learning-based data expansion across diverse harm categories.
+          - Stress-tested LLMs' safety performance, revealing persistent vulnerabilities to conversational attacks.
+
+      - name: "PDE Control Using Formal Languages and Large Language Models"
         url: https://arxiv.org/abs/2502.00963
-        summary: "Oct 2024 – Jan 2025"
+        summary: "Oct 2024 - Jan 2025"
         highlights:
-          - LLM for conversion between PDE-related natural language to formal temporal logic and executable programming code.
-          - Incorporated and designed back-translation and auto-verification pipeline for data generation.
+          - Used LLMs to convert PDE-related natural language into formal temporal logic and executable control code.
+          - Designed a back-translation and auto-verification pipeline for data generation.
 
-      - name: "HPC-Driven Modeling with ML-Based Surrogates for Magnon-Photon Dynamics in Hybrid Quantum Systems"
-        url: https://arxiv.org/abs/2510.22221
-        summary: "Oct 2023 – May 2024"
-        highlights:
-          - Developed a physics-informed deep learning framework for dynamics forecasting of electric fields.
-          - Established a curriculum learning method for long-horizon prediction and improving generalization performance.
-
-      - name: "Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning"
+      - name: "Operator Learning via Unsupervised Pretraining and Scalable In-Context Learning"
         url: https://arxiv.org/abs/2402.15734
-        summary: "Nov 2023 – Jan 2024"
+        summary: "Nov 2023 - Jan 2024"
         highlights:
           - Proposed a data-efficient training pipeline for optimizing efficiency and accuracy.
           - Studied the limitations on data (masking, subsample ratio, etc.) for downstream tasks on different PDE systems.
 
-      - name: "Learning Spatiotemporal Dynamics From Sparse Measurements"
-        summary: "Mar 2023 – Dec 2023"
+      - name: "Propagating Geometric Uncertainty through Numerical PDE Solutions"
+        url: https://arxiv.org/abs/2603.21356
+        summary: "Aug 2024 - Apr 2026"
         highlights:
-          - Designed a NeuralODE model for predicting temporal dynamics using sparse measurements, with a Swin Transformer-based decoder for reconstructing spatiotemporal dynamics.
-          - Ran experiments on various datasets (e.g., turbulence and climate data ERA5) and contributed to a paper.
+          - Built a physics-informed metric to evaluate next-best-view (NBV) methods for 3D reconstruction.
+          - Propagated geometric uncertainty through differentiable grid-based methods.
 
       - name: "IARPA TrojAI for Model Robustness against Backdoor Attack"
-        summary: "Oct 2021 – Aug 2024"
+        summary: "Oct 2021 - Aug 2024"
         highlights:
-          - Evaluated model robustness against backdoor attacks using weight-based analysis, trigger inversion, or input perturbation.
+          - Evaluated model robustness on backdoor attacks using weight-based analysis, trigger inversion, and input perturbation.
           - Developed detection and mitigation pipelines for backdoor attacks across domains (CV, LLM, cyber security).
-          - Secured top 2 place for the majority of TrojAI rounds and ranked in the top 5 for NeurIPS TDC 2022 (detection track).
+          - Placed top 2 in the majority of TrojAI rounds and top 5 in NeurIPS TDC 2022 (detection track).
 
     Publications:
+      - title: "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety"
+        publisher: "ICML 2026"
+        releaseDate: "2026-01-01"
+        url: https://arxiv.org/abs/2605.01687
+        summary: "**J. Song**, X. Liu, W. Yang, W. Chen, M. Feng, X. Zhu, J. Gao"
+
+      - title: "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction"
+        publisher: "CVPR 2026"
+        releaseDate: "2026-01-01"
+        url: https://arxiv.org/abs/2603.21356
+        summary: '**J. Song\***, Y. Liu\*, M. Chanlatte, R. Chowdhury, R. Desai, W. Chen, D. Martin, M. W. Mahoney'
+
+      - title: "Learning earthquake ground motions via conditional generative modeling"
+        publisher: "Nature Communications"
+        releaseDate: "2026-01-01"
+        summary: "P. Ren, I. Naiman, M. Lacour, R. Nakata, N. Nakata, **J. Song**, Z. Bi, O. A. Malik, D. Morozov, O. Azencot, N. B. Erichson, M. W. Mahoney"
+
       - title: "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs"
         publisher: "ICML 2025"
         releaseDate: "2025-01-01"
         url: https://arxiv.org/abs/2502.00963
-        summary: "**J. Song\\***, M. Soroco\\*, M. Xia, K. Emond, W. Sun, W. Chen"
+        summary: '**J. Song\***, M. Soroco\*, M. Xia, K. Emond, W. Sun, W. Chen'
+
+      - title: "Learning Spatiotemporal Dynamics from Sparse Data via a High-order Physics-encoded Network"
+        publisher: "Computer Physics Communications, 2025"
+        releaseDate: "2025-01-01"
+        summary: '**J. Song\***, P. Ren\*, C. Rao\*, Q. Wang, Y. Guo, H. Sun, Y. Liu'
 
       - title: "Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning"
         publisher: "NeurIPS 2024"
         releaseDate: "2024-01-01"
         url: https://arxiv.org/abs/2402.15734
-        summary: "**J. Song\\***, W. Chen\\*, P. Ren, S. Subramanian, D. Morozov, M. W. Mahoney"
-
-      - title: "Learning Spatiotemporal Dynamics from Sparse Data via a High-order Physics-encoded Network"
-        publisher: "Computer Physics Communications, 2025"
-        releaseDate: "2025-01-01"
-        summary: "**J. Song\\***, P. Ren\\*, C. Rao\\*, Q. Wang, Y. Guo, H. Sun, Y. Liu"
+        summary: '**J. Song\***, W. Chen\*, P. Ren, S. Subramanian, D. Morozov, M. W. Mahoney'
 
       - title: "Learning Spatiotemporal Dynamics From Sparse Measurements"
         publisher: "Machine Learning: Science & Technology, 2024"
         releaseDate: "2024-01-01"
-        summary: "**J. Song\\***, Z. Song\\*, P. Ren, N. B. Erichson, M. W. Mahoney, X. S. Li"
-
-      - title: "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Stress-testing LLM Safety"
-        publisher: "Under Review"
-        summary: "**J. Song**, X. Liu, W. Yang, W. Chen, M. Feng, X. Zhu, J. Gao"
-
-      - title: "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction"
-        publisher: "Under Review"
-        url: https://arxiv.org/abs/2603.21356
-        summary: "**J. Song\\***, Y. Liu\\*, M. Chanlatte, R. Chowdhury, R. Desai, W. Chen, D. Martin, M. W. Mahoney"
-
-      - title: "HPC-Driven Modeling with ML-Based Surrogates for Magnon-Photon Dynamics in Hybrid Quantum Systems"
-        publisher: "Under Review"
-        url: https://arxiv.org/abs/2510.22221
-        summary: "**J. Song\\***, Y. Tang\\*, P. Ren, N. B. Erichson, M. W. Mahoney, J. Z. Yao"
-
-      - title: "CD-VAE-GMG: Conditional Dynamic Variational Autoencoder for Earthquake Ground Motion Simulation"
-        publisher: "Under Review"
-        summary: "P. Ren, I. Naiman, M. Lacour, R. Nakata, N. Nakata, **J. Song**, Z. Bi, O. A. Malik, D. Morozov, O. Azencot, N. B. Erichson, M. W. Mahoney"
+        summary: '**J. Song\***, Z. Song\*, P. Ren, N. B. Erichson, M. W. Mahoney, X. S. Li'

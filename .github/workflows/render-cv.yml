@@ -1,15 +1,8 @@
 name: Render a CV
+# Disabled on push: assets/pdf/jsong_cv.pdf is maintained by hand and this
+# workflow would overwrite it. Run it manually from the Actions tab only if you
+# want RenderCV to regenerate the PDF from _data/cv.yml.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
-  workflow_call:
   workflow_dispatch:
 permissions:
   contents: write

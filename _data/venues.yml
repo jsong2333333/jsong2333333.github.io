@@ -1,9 +1,29 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Badge colors for the venue abbreviations used in _bibliography/papers.bib.
+# The key must match the `abbr` field of the bib entry.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICML":
+  url: https://icml.cc/
+  color: "#b02418"
 
-"Vision":
-  color: "#009f36"
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#1f4e79"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#00629b"
+
+"NatComm":
+  url: https://www.nature.com/ncomms/
+  color: "#c8102e"
+
+"CPC":
+  url: https://www.sciencedirect.com/journal/computer-physics-communications
+  color: "#0b6e4f"
+
+"MLST":
+  url: https://iopscience.iop.org/journal/2632-2153
+  color: "#5a3e8e"
+
+"Preprint":
+  color: "#6c757d"
