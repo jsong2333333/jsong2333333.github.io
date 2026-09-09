@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-dr",
-          title: "Dr. 💎",
+        },{id: "nav-dr-diamond",
+          title: "Dr. Diamond",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -71,13 +71,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/assets/pdf/jsong_cv.pdf", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
