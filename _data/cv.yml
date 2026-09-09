@@ -113,7 +113,7 @@ cv:
         publisher: "CVPR 2026"
         releaseDate: "2026-01-01"
         url: https://arxiv.org/abs/2603.21356
-        summary: '**J. Song\***, Y. Liu\*, M. Chanlatte, R. Chowdhury, R. Desai, W. Chen, D. Martin, M. W. Mahoney'
+        summary: 'Y. Liu\*, **J. Song\***, M. Chanlatte, R. Chowdhury, R. Desai, W. Chen, D. Martin, M. W. Mahoney'
 
       - title: "Learning earthquake ground motions via conditional generative modeling"
         publisher: "Nature Communications"
@@ -130,7 +130,7 @@ cv:
       - title: "Learning Spatiotemporal Dynamics from Sparse Data via a High-order Physics-encoded Network"
         publisher: "Computer Physics Communications, 2025"
         releaseDate: "2025-01-01"
-        summary: '**J. Song\***, P. Ren\*, C. Rao\*, Q. Wang, Y. Guo, H. Sun, Y. Liu'
+        summary: 'P. Ren\*, **J. Song\***, C. Rao\*, Q. Wang, Y. Guo, H. Sun, Y. Liu'
 
       - title: "HPC-Driven Modeling with ML-Based Surrogates for Magnon-Photon Dynamics in Hybrid Quantum Systems"
         publisher: "ACES 2025"
