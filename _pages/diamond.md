@@ -1,7 +1,8 @@
 ---
 layout: bio
 permalink: /diamond/
-title: Dr. Diamond
+title: Dr. 💎 # shown in the navbar
+heading: Dr. Diamond # shown as the page heading
 nav: true
 nav_order: 3
 subtitle: Research Assistant. Naps, supervision, and occasional keyboard contributions.
