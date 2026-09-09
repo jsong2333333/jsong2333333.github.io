@@ -16,13 +16,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false
+  enabled: true # renders _news items between the bio and selected publications
+  scrollable: true # adds a scroll bar once there are more than three items
+  limit: 5 # leave blank to show every item in _news
 
 latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. student in Computing Science at [Simon Fraser University](https://www.sfu.ca/), where I work on the safety and reliability of machine learning systems, advised by [Prof. Wuyang Chen](https://delta-lab-ai.github.io/).
+I am a third-year Ph.D. student in Computing Science at [Simon Fraser University](https://www.sfu.ca/), where I work on the safety and reliability of machine learning systems, advised by [Prof. Wuyang Chen](https://delta-lab-ai.github.io/).
 
 My current research has two threads. The first is **large language model safety**: I build scalable benchmarks for stress-testing models against multi-turn conversational attacks, and study why safety training that holds up in a single turn erodes over a longer dialogue. The second is **scientific machine learning**: I develop data-efficient operator learning methods, physics-informed surrogates for high-performance computing workloads, and language models that formalize and reason about partial differential equations.
 

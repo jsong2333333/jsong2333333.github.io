@@ -141,9 +141,17 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
+
+future: true # render news items dated ahead of the last build
 
 # Markdown and syntax highlight
 markdown: kramdown

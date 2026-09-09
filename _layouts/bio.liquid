@@ -67,6 +67,14 @@ layout: default
 </div>
 
 <style>
+  /* Diamond runs alongside the pointer on her own page. 32px is the size every
+     browser accepts; the hotspot sits on her nose. */
+  body {
+    cursor:
+      url("{{ '/assets/cursors/running-kitty.png' | relative_url }}") 27 13,
+      auto;
+  }
+
   /* The portrait is a tall phone photo. Crop it to a shorter oval and frame the
      subject, so it sits beside the intro text instead of running past it. */
   .profile img {
