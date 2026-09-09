@@ -40,7 +40,7 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     {% if page.gallery and page.gallery.size > 0 %}
-      <h2>{{ page.gallery_title | default: "gallery" }}</h2>
+      <h2>{{ page.gallery_title | default: 'gallery' }}</h2>
       {% if page.gallery_description %}
         <p class="gallery-description">{{ page.gallery_description }}</p>
       {% endif %}
