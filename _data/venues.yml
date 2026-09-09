@@ -25,5 +25,9 @@
   url: https://iopscience.iop.org/journal/2632-2153
   color: "#5a3e8e"
 
+"ACES":
+  url: https://aces-society.org/
+  color: "#8a6d1f"
+
 "Preprint":
   color: "#6c757d"

@@ -118,24 +118,31 @@ cv:
       - title: "Learning earthquake ground motions via conditional generative modeling"
         publisher: "Nature Communications"
         releaseDate: "2026-01-01"
+        url: https://www.nature.com/articles/s41467-026-70719-2
         summary: "P. Ren, I. Naiman, M. Lacour, R. Nakata, N. Nakata, **J. Song**, Z. Bi, O. A. Malik, D. Morozov, O. Azencot, N. B. Erichson, M. W. Mahoney"
 
       - title: "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs"
         publisher: "ICML 2025"
         releaseDate: "2025-01-01"
         url: https://arxiv.org/abs/2502.00963
-        summary: '**J. Song\***, M. Soroco\*, M. Xia, K. Emond, W. Sun, W. Chen'
+        summary: 'M. Soroco\*, **J. Song\***, M. Xia, K. Emond, W. Sun, W. Chen'
 
       - title: "Learning Spatiotemporal Dynamics from Sparse Data via a High-order Physics-encoded Network"
         publisher: "Computer Physics Communications, 2025"
         releaseDate: "2025-01-01"
         summary: '**J. Song\***, P. Ren\*, C. Rao\*, Q. Wang, Y. Guo, H. Sun, Y. Liu'
 
+      - title: "HPC-Driven Modeling with ML-Based Surrogates for Magnon-Photon Dynamics in Hybrid Quantum Systems"
+        publisher: "ACES 2025"
+        releaseDate: "2025-01-01"
+        url: https://arxiv.org/abs/2510.22221
+        summary: '**J. Song\***, Y. Tang\*, P. Ren, N. B. Erichson, M. W. Mahoney, J. Z. Yao'
+
       - title: "Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning"
         publisher: "NeurIPS 2024"
         releaseDate: "2024-01-01"
         url: https://arxiv.org/abs/2402.15734
-        summary: '**J. Song\***, W. Chen\*, P. Ren, S. Subramanian, D. Morozov, M. W. Mahoney'
+        summary: 'W. Chen\*, **J. Song\***, P. Ren, S. Subramanian, D. Morozov, M. W. Mahoney'
 
       - title: "Learning Spatiotemporal Dynamics From Sparse Measurements"
         publisher: "Machine Learning: Science & Technology, 2024"
