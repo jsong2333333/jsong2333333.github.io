@@ -67,11 +67,21 @@ layout: default
 </div>
 
 <style>
-  /* Diamond runs alongside the pointer on her own page. 32px is the size every
-     browser accepts; the hotspot sits on her nose. */
-  body {
+  /* Diamond's face follows the pointer on her own page, and switches to a happy
+     open-mouth version while the mouse button is down. 32px is the size every
+     browser accepts; the hotspot sits on her nose. The `body *` half keeps her
+     on links and buttons, which would otherwise fall back to the hand pointer. */
+  body,
+  body * {
     cursor:
-      url("{{ '/assets/cursors/running-kitty.png' | relative_url }}") 27 13,
+      url("{{ '/assets/cursors/tuxedo-kitty.png' | relative_url }}") 15 18,
+      auto;
+  }
+
+  body.kitty-clicked,
+  body.kitty-clicked * {
+    cursor:
+      url("{{ '/assets/cursors/tuxedo-kitty-click.png' | relative_url }}") 15 18,
       auto;
   }
 
@@ -131,3 +141,21 @@ layout: default
     }
   }
 </style>
+
+<script>
+  // Hold the clicked face for a moment after the button comes back up, so a
+  // quick click is long enough to notice.
+  (function () {
+    var timer;
+    document.addEventListener('mousedown', function () {
+      clearTimeout(timer);
+      document.body.classList.add('kitty-clicked');
+    });
+    document.addEventListener('mouseup', function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        document.body.classList.remove('kitty-clicked');
+      }, 300);
+    });
+  })();
+</script>
